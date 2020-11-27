@@ -1,0 +1,36 @@
+html, body {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 ;
+    padding: 0;
+}
+* {
+    box-sizing:border-box;
+}
+header {
+    background: orange;
+    width: 100%;
+    overflow: hidden;
+}
+header a {
+    background:white;
+    color: orange;
+    float: right;
+    margin: 10px;
+    padding:5px;
+    text-decoration: none;
+}
+.products-list {
+    background:#dddddd;
+    position:relative;
+    width:100%;
+}
+.products-list .product-item {
+    background: white;
+    width: 25%;
+    box-shadow:3px 3px 3px #dddddd;
+    margin: 5px;
+}
+.product-item img {
+    width:80%;
+}

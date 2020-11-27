@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 ;
+    padding: 0;
+}
+* {
+    box-sizing:border-box;
+}
+header {
+    background: orange;
+    width: 100%;
+    overflow: hidden;
+}
+header a {
+    background:white;
+    color: orange;
+    float: right;
+    margin: 10px;
+    padding:5px;
+    text-decoration: none;
+}
